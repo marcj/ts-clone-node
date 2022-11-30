@@ -2,6 +2,9 @@
 	"name": "@marcj/ts-clone-node",
 	"version": "1.0.0",
 	"description": "A library that helps you clone Nodes from a Typescript AST",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"generate:sandhog": "sandhog all --yes",
 		"generate:changelog": "standard-changelog --first-release",
