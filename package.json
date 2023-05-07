@@ -1,6 +1,6 @@
 {
 	"name": "@marcj/ts-clone-node",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "A library that helps you clone Nodes from a Typescript AST",
 	"publishConfig": {
 		"access": "public"
@@ -83,7 +83,7 @@
 		"compatfactory": "^1.0.1"
 	},
 	"peerDependencies": {
-		"typescript": "^4.8"
+		"typescript": "^4.8 | ^5.0"
 	},
 	"exports": {
 		"import": "./dist/esm/index.js",
